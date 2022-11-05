@@ -56,6 +56,7 @@ def time_metric_down(time, metric, metric_down):
 
 #Проверка
 print(time_metric_down(1, "w", "w"))
+print(time_metric_down(1, "y", "w"))
 print(time_metric_down(1, "w", "d"))
 print(time_metric_down(14, "h", "d"))
 print(time_metric_down(652, "m", "d"))
