@@ -61,4 +61,11 @@ print(time_metric_down(1, "w", "d"))
 print(time_metric_down(14, "h", "d"))
 print(time_metric_down(652, "m", "d"))
 
+if (time_metric_down(10, 'h', 's') == 36000 and time_metric_down(1, 'w', 'd') == 7 and
+    time_metric_down(1, 'w', 'h') == 168 and time_metric_down(1, 'w', 'm') == 10080 and
+    time_metric_down(1, 'w', 's') == 604800):
+    print('Ошибки не выявлены')
+else:
+    print('Выявлены ошибки')
+
 
