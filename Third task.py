@@ -30,7 +30,6 @@ def factorial2(n):
         x = x + 1
         if x == n:
             return y
-            break
 print (factorial2(1000)) #Check
 
 

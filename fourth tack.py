@@ -51,6 +51,6 @@ def new_workers():
         print(f'Допустимо уволить сотрудников: {new_worker} ')
     else:
         new_worker = math. ceil(new_worker)
-        print (f'Для выполнения поставленной задачи требуется следующее количество дополнительных сотрудников: {new_worker} ')
+        print(f'Для выполнения поставленной задачи требуется следующее количество дополнительных сотрудников: {new_worker} ')
 
-print (new_workers())
+print(new_workers())
